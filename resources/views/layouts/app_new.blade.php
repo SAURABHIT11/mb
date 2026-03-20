@@ -4,7 +4,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dr. Mohit Bhalla | Consultant Urologist & Surgeon</title>
+
+    <!-- Primary SEO -->
+    <title>Best Urologist in Roorkee | Dr. Mohit Bhalla | Consultant Urologist & Surgeon</title>
+
+    <meta name="description"
+        content="Dr. Mohit Bhalla is a leading urologist in Roorkee providing advanced urology treatment including kidney stone treatment, prostate surgery, urinary infections and minimally invasive urology procedures.">
+
+    <meta name="keywords"
+        content="Urologist in Roorkee, Best Urologist Roorkee, Kidney Stone Doctor Roorkee, Prostate Specialist Roorkee, Urology Clinic Roorkee, Dr Mohit Bhalla">
+
+    <meta name="author" content="Dr Mohit Bhalla">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <!-- Open Graph (Facebook / WhatsApp) -->
+    <meta property="og:title" content="Best Urologist in Roorkee | Dr Mohit Bhalla">
+    <meta property="og:description"
+        content="Expert urology treatment in Roorkee including kidney stone treatment, prostate surgery and urinary disorders.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:image" content="{{ asset('images/dr-mohit-bhalla.jpg') }}">
+    <meta property="og:site_name" content="Dr Mohit Bhalla Urology Clinic">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Best Urologist in Roorkee | Dr Mohit Bhalla">
+    <meta name="twitter:description"
+        content="Consult Dr Mohit Bhalla for kidney stones, prostate surgery and advanced urology treatment in Roorkee.">
+    <meta name="twitter:image" content="{{ asset('images/dr-mohit-bhalla.jpg') }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet" />
 
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -12,6 +49,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    @verbatim
+            <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Physician",
+          "name": "Dr Mohit Bhalla",
+          "medicalSpecialty": "Urology",
+          "url": "https://yourdomain.com",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Roorkee",
+            "addressRegion": "Uttarakhand",
+            "addressCountry": "India"
+          }
+        }
+        </script>
+    @endverbatim
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
