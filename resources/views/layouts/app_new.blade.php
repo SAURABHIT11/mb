@@ -17,7 +17,7 @@
     <meta name="author" content="Dr Mohit Bhalla">
 
     <!-- Canonical -->
-    <link rel="canonical" href="{{ url()->current() }}">
+    <link rel="canonical" href="{{ url('/') }}">
 
     <!-- Open Graph (Facebook / WhatsApp) -->
     <meta property="og:title" content="Best Urologist in Roorkee | Dr Mohit Bhalla">
@@ -66,10 +66,6 @@
         }
         </script>
     @endverbatim
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=DM+Mono:wght@400;500&display=swap"
-        rel="stylesheet" />
 
     <style>
         :root {
