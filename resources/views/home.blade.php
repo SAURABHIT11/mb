@@ -4,7 +4,7 @@
 @section('content')
 
 
-    {{-- HERO SECTION --}}
+    {{-- HERO SECTION -saurabh saini-}}
     @include('sections.hero')
 
     <div class="divider"></div>
